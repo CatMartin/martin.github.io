@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MartinCat</title>
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="icon" href="favicon.png" type="image/png">
+</head>
+<body class="relative">
+<div class="loader-wrapper">
+    <div class="loader"></div>
+</div>
+<div class="main-wrapper off">
+    <svg id="hint" class="" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="512px" version="1.1" height="512px" viewBox="0 0 64 64" enable-background="new 0 0 64 64">
+        <g>
+            <path fill="#FFDA44" d="m63.386,16.193l.002-.002c0.002-0.003 0.004-0.006 0.006-0.01 0.172-0.195 0.298-0.43 0.399-0.678 0.032-0.076 0.053-0.148 0.076-0.225 0.058-0.191 0.094-0.389 0.106-0.596 0.006-0.076 0.018-0.148 0.016-0.226 0-0.04 0.01-0.076 0.008-0.115-0.014-0.239-0.062-0.47-0.136-0.687-0.006-0.023-0.022-0.041-0.03-0.064-0.088-0.239-0.214-0.451-0.363-0.645-0.021-0.027-0.028-0.063-0.05-0.09l-10.311-12.146c-0.789-0.93-2.084-0.948-2.894-0.037-0.808,0.91-0.823,2.402-0.032,3.334l5.558,6.549c-8.121-1.076-16.104,0.633-16.481,0.717-24.646,4.467-42.087,27.227-38.88,50.736 0.159,1.164 1.028,1.992 2.019,1.992 0.106,0 0.212-0.009 0.32-0.027 1.116-0.203 1.878-1.409 1.704-2.696-2.857-20.94 13.056-41.282 35.537-45.358 0.103-0.024 8.351-1.794 16.117-0.574l-8.577,5.093c-1.005,0.598-1.398,2.02-0.881,3.177 0.516,1.159 1.748,1.608 2.756,1.017l13.52-8.028c0.183-0.111 0.347-0.25 0.491-0.411z"/>
+        </g>
+    </svg>
+    <a href="javascript:void(0);" id="switch" class="playSound">
+        <svg xmlns="http://www.w3.org/2000/svg" id="switch" viewBox="0 0 66.599 93.216">
+            <g id="white" fill="none" stroke="#FFF" stroke-width="3" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M20.023 16.3h25.5l9.49 46.623H31.098z"/>
+                <path d="M54.95 62.923l-12.677 10.46h-22.25V16.298"/>
+                <path d="M1.5 1.5h63.598v90.216H1.5zM31.035 62.923l-11.012 10.46"/>
+            </g>
+            <g id="black" fill="none" stroke="#1D1D1B" stroke-width="3" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M1.5 1.5h63.6v90.216H1.5z"/>
+                <path d="M19.44 75.15h23.123L54.43 28.525H30.515z"/>
+                <path d="M54.368 28.525L41.69 18.067H19.44V75.15M30.452 28.525L19.44 18.067"/>
+            </g>
+        </svg>
+    </a>
+    <div class="copy">
+        <p id="main-slide"></p>
+        <p id="contact-slide">
+            Поздравляю, ты человек, которому совершенно нечем заняться.<br>
+            Где ты можешь меня найти:<br>
+            VK - <a href="https://vk.com/martin__cat" target="_blank">Тык</a><br>
+			Twitter - <a href="https://twitter.com/martincatrus" target="_blank">Тык</a><br>
+			Steam - <a href="http://steamcommunity.com/id/martincatrus" target="_blank">Тык</a><br>
+            ¯\_(ツ)_/¯<br>
+            <span id="warning">Прекрати, ничего уже не изменится!</span><br>
+            <span id="second-warning">Все, я отключаюсь. Пока.</span>
+        </p>
+    </div>
+</div>
+
+<audio id="sound" autostart="0">
+    <source src="sound/switch.mp3" type="audio/mpeg">
+</audio>
+
+</body>
+<script src="js/jquery-2.0.0.min.js"></script>
+<script src="js/app.js"></script>
+</html>
